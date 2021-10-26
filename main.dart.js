@@ -20585,13 +20585,13 @@ if(c===r-q)return q
 r=B.b.fK(a,b,r+1)}return null},
 afG(){var s=0,r=A.P(t.z),q
 var $async$afG=A.L(function(a,b){if(a===1)return A.M(b,r)
-while(true)switch(s){case 0:if($.z==null)A.aik()
+while(true)switch(s){case 0:q=document.getElementById("loader")
+if(q!=null)J.bn(q)
+if($.z==null)A.aik()
 $.z.toString
 s=2
 return A.I(A.a6L("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMjkyNzgyNiwiZXhwIjoxOTQ4NTAzODI2fQ.LifpS2ZLJnq8TnLnQCOMt_Y2cSTtkkTVt5fZvvTUQTs","login-callback",!0,"https://ytdymxxhprzdaymfgldi.supabase.co"),$async$afG)
-case 2:q=document.getElementById("loader")
-if(q!=null)J.bn(q)
-if($.z==null)A.aik()
+case 2:if($.z==null)A.aik()
 q=$.z
 q.OK(B.G0)
 q.Df()
